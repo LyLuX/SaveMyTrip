@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/large_margin_padding"
+    tools:context=".todolist.TodoListActivity">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/todo_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/todo_list_profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/margin_padding"
+            android:contentDescription="@string/logo_description" />
+
+        <TextView
+            android:id="@+id/todo_list_profile_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding"
+            android:gravity="center"
+            android:textSize="@dimen/text_font_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Recycler view -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/todo_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/todo_list_relative_layout_bottom"
+        android:layout_below="@+id/todo_list_header" />
+
+    <RelativeLayout
+        android:id="@+id/todo_list_relative_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/todo_list_button_add"
+        android:layout_margin="@dimen/margin_padding">
+
+        <EditText
+            android:id="@+id/todo_list_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/todo_list_spinner"
+            android:autofillHints="description"
+            android:hint="@string/todolist_things_todo"
+            android:inputType="text|textAutoCorrect"
+            android:textSize="@dimen/text_font_size" />
+
+        <Spinner
+            android:id="@id/todo_list_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/title_todo_list"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:textSize="@dimen/title_font_size" />
+
+    </RelativeLayout>
+
+    <!-- Button TodoList -->
+    <Button
+        android:id="@+id/todo_list_button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/large_margin_padding"
+        android:layout_marginTop="@dimen/large_margin_padding"
+        android:layout_marginEnd="@dimen/large_margin_padding"
+        android:layout_marginBottom="@dimen/large_margin_padding"
+        android:maxWidth="320dp"
+        android:padding="@dimen/margin_padding"
+        android:text="@string/todolist_button_add"
+        android:textSize="@dimen/text_font_size" />
+
+</RelativeLayout>

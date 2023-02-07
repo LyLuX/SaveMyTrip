@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Main Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Image View -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_margin_padding"
+            android:background="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/logo_description" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="@dimen/title_font_size"
+            android:textStyle="bold" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding"
+            android:text="@string/main_activity_description"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_font_size" />
+    </LinearLayout>
+
+    <!-- Button Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/large_margin_padding"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <!-- Trip Book -->
+        <Button
+            android:id="@+id/main_button_trip_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding"
+            android:backgroundTint="@color/purple_700"
+            android:padding="@dimen/large_margin_padding"
+            android:text="@string/title_trip_book"
+            android:textSize="@dimen/text_font_size" />
+
+        <!-- TodoList -->
+        <Button
+            android:id="@+id/main_button_todo_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding"
+            android:backgroundTint="@color/teal_700"
+            android:padding="@dimen/large_margin_padding"
+            android:text="@string/title_todo_list"
+            android:textSize="@dimen/text_font_size" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

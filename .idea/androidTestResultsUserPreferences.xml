@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidTestResultsUserPreferences">
+    <option name="androidTestResultsTableState">
+      <map>
+        <entry key="-1900603695">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Honor_50_API_31_-_Virtual" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="28629151">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="A7QXVB1A14002695" value="120" />
+                  <entry key="Duration" value="633" />
+                  <entry key="HONOR" value="120" />
+                  <entry key="HONOR&#10; NTH-NX9" value="120" />
+                  <entry key="Honor_50_API_31_-_Virtual" value="663" />
+                  <entry key="Status" value="80" />
+                  <entry key="Tests" value="552" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="644614899">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HONOR&#10; NTH-NX9" value="120" />
+                  <entry key="Honor_50_API_31_-_Virtual" value="120" />
+                  <entry key="Status" value="80" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="679439267">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="A7QXVB1A14002695" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="HONOR" value="120" />
+                  <entry key="HONOR&#10; NTH-NX9" value="120" />
+                  <entry key="Honor_50_API_31_-_Virtual" value="120" />
+                  <entry key="Status" value="80" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="982133931">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="A7QXVB1A14002695" value="120" />
+                  <entry key="Duration" value="105" />
+                  <entry key="HONOR&#10; NTH-NX9" value="120" />
+                  <entry key="Honor_50_API_31_-_Virtual" value="174" />
+                  <entry key="Status" value="80" />
+                  <entry key="Tests" value="375" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

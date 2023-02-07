@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provider_paths
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <paths>
+        <files-path name="BookTrip" path="bookTrip/"/>
+    </paths>
+
+</provider_paths>
